@@ -1,0 +1,110 @@
+body{
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  background-color: hsl(47, 88%, 63%);
+}
+
+
+.card{
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 12px 12px 12px rgba(0,0,0,6);
+  width: 320px;
+  overflow: hidden;
+  border: 1px solid #000000;
+}
+
+.card-image {
+  display: block;
+  border-radius: 12px;
+  width: 290px;
+  margin-top: 14px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-image:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.01);
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-footer {
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-top: -10px;
+  padding: 4px 10px;
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 5px;
+  font-family: 'Figtree', sans-serif;
+  font-weight: bold;
+}
+
+.date{
+  color: #000000;
+  font-size: 12px;
+  margin-bottom: 10px;
+  font-family: 'Figtree', sans-serif;
+  font-weight: normal;
+}
+
+.card-title{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  color: #000000;
+  font-family: 'Figtree', sans-serif;
+}
+
+.card-title:hover {
+  cursor: pointer;
+  color: hsl(47, 88%, 63%);
+}
+
+.card-description{
+  font-size: 14px;
+  color: #707070;
+  margin: 10px 0;
+  font-family: 'Figtree', sans-serif;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+}
+
+.author-image {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 12px
+}
+
+.author-image:hover {
+  cursor: pointer;
+  border: 2px solid hsl(47, 88%, 63%);
+}
+
+.author-name {
+  font-size: 14px;
+  color: #000000;
+  font-family: 'Figtree', sans-serif;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.attribution {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
